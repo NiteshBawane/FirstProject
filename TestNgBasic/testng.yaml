@@ -1,0 +1,7 @@
+name: Suite
+tests:
+  - name: Test
+    classes:
+      - testNgCases.Login
+      - testNgCases.SignIn
+
