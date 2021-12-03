@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="practise.LogicalOnUserpage">
+      <class name="offlinewebsite.OperatorPage">
         <methods>
-          <include name="checkEmail"/>
+          <include name="tearDown"/>
           <include name="setup"/>
+          <include name="checkOperatorTable"/>
         </methods>
-      </class> <!-- practise.LogicalOnUserpage -->
+      </class> <!-- offlinewebsite.OperatorPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
